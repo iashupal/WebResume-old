@@ -1,0 +1,102 @@
+.content-info{
+    position: relative;
+    right: 0;
+    overflow: hidden;
+    line-height: 25px;
+    border-top: 45px solid #3d4a6e;
+    padding-bottom: 57px;
+    padding-left: 60px;
+    /* padding-left: 62px; */
+    padding-top: 1%;
+    height: 100%;
+    display: table;
+    width: 100%;
+
+}
+.content-div{
+    height: 100%;
+}
+.content-icons{
+    width: 60px;
+    text-align: center;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: table;
+    z-index: 1;
+}
+.content-icons ul{
+    display: table-cell;
+    vertical-align: middle;
+    margin-bottom: 0px;
+}
+.content-icons ul li{
+    text-decoration: none;
+    padding: 10px 5px;
+    border-top: 1px solid rgba(52,65,107);
+    border-color: rgba(55,64,93);
+}
+.content-icons ul li:last-child{
+    border-bottom: 1px solid rgba(55,64,93);
+}
+.content-icons ul li a i{
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+.content-icons ul li a i:hover{
+    color: #23527c;
+}
+.content-icons ul li:hover i{
+    color: #23527c;
+}
+.content-icons ul li:hover{
+    background-color: white;
+}
+
+.target{
+    /* position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; */
+    
+        display: inline-block;
+        text-decoration: underline;
+        cursor: pointer;
+      
+}
+.react-tooltip-lite-right-arrow {
+    border-right: 10px solid #333;
+    z-index: 1;
+  }
+  .react-tooltip-lite {
+    background: #333;
+    color: white;
+  }
+/* .tooltip .tooltiptext{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 110%;
+
+}
+.tooltip .tooltiptext::after{
+    content: "";
+    position: absolute;
+    top:50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+
+}
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+} */

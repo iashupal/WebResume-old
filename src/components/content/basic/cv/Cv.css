@@ -1,0 +1,20 @@
+.cv{
+    text-align: center;
+    height: 100%;
+    background-color: #fff;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.cv .about-icon{
+    width: 85%;
+    padding: 7% 0 40px 0;
+    border-bottom: 4px solid #3d4a6e;
+    position: relative;
+}
+.cv .cv-icon{
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+.cv .about-skills{
+    width: 85%;
+}
