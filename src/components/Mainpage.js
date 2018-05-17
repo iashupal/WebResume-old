@@ -1,6 +1,7 @@
 import React from 'react';
 import { Profile } from './content/profile/Profile';
 import { Basicinfo } from './content/basic/Basicinfo';
+import { Footer } from './content/footer/Footer';
 import './Mainpage.css';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 //import { Basicinfo } from './content/Basicinfo';
@@ -21,6 +22,7 @@ export const Mainpage = ()=>{
          {/* basic info start */}
          <div className="col-lg-8 col-md-8 col-sm-8 profile-detail">
              <Basicinfo/>
+             <Footer/>
          </div>
         </div>
         

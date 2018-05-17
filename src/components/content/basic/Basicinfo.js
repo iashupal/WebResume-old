@@ -44,6 +44,7 @@ export const Basicinfo = ()=>{
                       
                      </li>
                    </ul>
+                   {/* <Footer/> */}
                  </div>
           <div className="content-info">   
           <Route exact path="/" component={Home} /> 
