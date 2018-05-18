@@ -29,4 +29,23 @@ body {
   #root{
     height: 100%;
   }
+
+  /* responsive code */
+  /* 992 css */
+  @media screen and (max-width:992px){
+    .profile-info .profile-row .profile-detail{
+        background-color: #3d4a6e;
+    }
+    .profile-info .profile-row{
+        align-items: none;
+    }
+    .profile-img{
+        height: 400px;
+        background-repeat: no-repeat;
+        background-position: 100% -9%;
+    }
+    .profile-info{
+        padding: 0 0%;
+    }
+  }
   

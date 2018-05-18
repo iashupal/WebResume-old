@@ -48,3 +48,12 @@
     color: #fff;
     text-transform: uppercase;
 }
+
+/* responsive code */
+/* 992px css code */
+@media screen and (max-width:992px){
+    .profile-bg{
+        padding:  0% 3%;
+    }
+}
+

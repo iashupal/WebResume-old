@@ -63,3 +63,12 @@
     font-weight: 600;
     margin: 0;
 }
+/* responsive code */
+/* 992px css */
+@media screen and (max-width:992px){
+     .home{
+        padding-top: 4%;
+        padding-bottom: 5%;
+     }
+   
+}

@@ -8,16 +8,16 @@ export const Footer =()=>{
         <div className="footer-social-icons">
         <ul className="list-unstyled">
             <li>
-                <a href="#" className="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://twitter.com/" className="twitter"><i class="fa fa-twitter"></i></a>
             </li>
             <li>
-                <a href="#" className="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.facebook.com/" className="facebook"><i class="fa fa-facebook"></i></a>
             </li>
             <li>
                 <a href="#" className="google-plus"><i class="fa fa-google-plus"></i></a>
             </li>
             <li>
-                <a href="#" className="instagram"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.instagram.com/" className="instagram"><i class="fa fa-instagram"></i></a>
             </li>
            
         </ul>

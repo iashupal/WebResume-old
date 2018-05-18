@@ -23,8 +23,14 @@
     height: 100%;
     top: 0;
     left: 0;
-    display: table;
+    /* display: table; */
     z-index: 1;
+}
+.content-icons .content-inner-div{
+    display: table;
+    width: 100%;
+    height: 100%;
+
 }
 .content-icons ul{
     display: table-cell;
@@ -70,8 +76,31 @@
     z-index: 1;
   }
   .react-tooltip-lite {
-    background: #333;
+    background: #3d4a6e;
     color: white;
+  }
+  .customTip .react-tooltip-lite {
+    border: 1px solid #888;
+    border: 1px solid #888;
+    background: #ccc;
+    color: black;
+  }
+  .customTip .react-tooltip-lite-right-arrow {
+    border-right: 10px solid #444;
+  }
+  
+  .customTip .react-tooltip-lite-right-arrow::before {
+    content: '';
+    border-right: 10px solid #ccc;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    right: -11px;
+    top: -10px;
+    width: 0;
+    height: 0;
+    z-index: 99;
+    display: block;
   }
 /* .tooltip .tooltiptext{
     visibility: hidden;
@@ -100,3 +129,21 @@
 .tooltip:hover .tooltiptext{
     visibility: visible;
 } */
+.tooltip.right .tooltip-inner {
+    background-color:blue;
+  }
+.tooltip.right .tooltip-arrow {
+          border-right-color: blue;
+       }
+
+
+       /* responsive code */
+       /* 992px */
+       @media screen and (max-width:992px){
+        .content-div{
+            display: flex;
+        }  
+        .content-info{
+            padding-right: 3%;
+        } 
+       }

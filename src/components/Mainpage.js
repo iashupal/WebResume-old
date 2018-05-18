@@ -14,13 +14,13 @@ export const Mainpage = ()=>{
         // Profile info
         <div className="profile-info">
         <div className="row profile-row">
-         <div className="col-lg-4 col-md-4 col-sm-4 profile-pic">
+         <div className="col-lg-4 col-md-12 col-sm-12 profile-pic">
          <Profile/>
          </div>
          {/* profile info finish */}
 
          {/* basic info start */}
-         <div className="col-lg-8 col-md-8 col-sm-8 profile-detail">
+         <div className="col-lg-8 col-md-12 col-sm-12 profile-detail">
              <Basicinfo/>
              <Footer/>
          </div>

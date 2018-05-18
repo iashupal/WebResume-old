@@ -6,3 +6,11 @@
     height: 100%;
     position: relative;
 }
+
+/* responsive code */
+/* 992px css */
+@media screen and (max-width:992px){
+    .main-page{
+        height: initial;
+    }
+}

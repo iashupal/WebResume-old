@@ -2,7 +2,7 @@
     text-align: center;
     height: 100%;
     background-color: #fff;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     overflow-y: scroll;
 }
 .cv .about-icon{
@@ -149,6 +149,16 @@
 .timeline > li:last-child {
     margin-bottom: 40px;
 }
-/* .timeline > li {
-    position: relative;
-} */
+/* responsive code */
+/* 992px css */
+@media screen and (max-width:992px){
+    .cv{
+        overflow-y: initial;
+    }
+}
+/* 860px */
+@media screen and (max-width:860px){
+    .timeline li .col-time span:nth-child(1){
+        font-size: 12px;
+    }
+}
