@@ -173,3 +173,10 @@ h3 span{
         overflow-x: none;
     }
 }
+/* 640px css */
+@media screen and (max-width:640px){
+    .about-info p, .about-detail p{
+        font-size: 10px;
+    }
+   
+}

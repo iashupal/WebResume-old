@@ -1,5 +1,6 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Link} from "react-router-dom";
+import '../../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Tooltip from 'react-tooltip-lite';
 // import { Tooltip } from 'react-lightweight-tooltip';
 import {Home} from './home/Home';
@@ -33,7 +34,7 @@ export const Basicinfo = ()=>{
       // });
       <Router>
         <div className="content-div">
-          <div className="content-icons hidden-xs">
+          <div className="content-icons d-none d-md-block">
             <div className="content-inner-div">
                    <ul className="list-unstyled">
                      <li>
@@ -68,7 +69,10 @@ export const Basicinfo = ()=>{
             </div>       
                    
                  </div>
-          <div className="content-info">   
+          <div className="content-info"> 
+          <div className="d-block d-sm-block">
+          <span class="glyphicon glyphicon-menu-hamburger"></span>
+          </div>  
           <Route exact path="/" component={Home} /> 
           <Route path="/about" component={About} />
           <Route path="/cv" component={Cv} />

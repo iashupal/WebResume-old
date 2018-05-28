@@ -147,3 +147,9 @@
             padding-right: 3%;
         } 
        }
+       /* 768px css  */
+       @media screen and (max-width:768px){
+        .content-info{
+            padding: 0 2%;
+        }
+       }

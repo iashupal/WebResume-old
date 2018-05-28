@@ -162,3 +162,9 @@
         font-size: 12px;
     }
 }
+/* 640px css */
+@media screen and (max-width:640px){
+    .timeline li .col-time{
+        padding-left: 15px;
+    }
+}

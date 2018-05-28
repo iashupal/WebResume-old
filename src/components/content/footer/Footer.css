@@ -100,3 +100,9 @@
     margin-bottom: 15px;
     }
  }
+ /* 768px css */
+ @media screen and (max-width:768px){
+    .footer{
+        padding-left: 10px;
+    }
+ }
